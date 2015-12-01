@@ -2,13 +2,28 @@ body {
   background-color: gray;
   text-align: center;
   margin:0 auto;
-  
+
 }
 
 form {
   margin:0 auto;
+  text-align:center;
+  display:block;
+  position:relative;
 }
 input {
   display: block;
   font-size: 2em;
+}
+
+ul {
+  text-align: center;
+}
+
+div {
+  text-align:ceter;
+}
+
+section {
+  text-align: center;
 }

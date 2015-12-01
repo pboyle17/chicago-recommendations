@@ -1,4 +1,6 @@
-require './app'
+require 'sinatra/base'
+require './controllers/application'
+require './controllers/recommendations'
 require './models/recommendation'
 
-run Sinatra::Application
+map ('/') {run RecommendationsController}

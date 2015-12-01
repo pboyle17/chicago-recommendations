@@ -4,9 +4,27 @@
     <meta charset="utf-8">
     <title>chicago recommendations</title>
     <link rel="stylesheet" href="/main.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="/app.js" charset="utf-8"></script>
   </head>
   <body>
-    <h1>Chicago Recommendations</h1>
-    <%=yield%>
+    <a href="/">Home</a>
+    <a href="/recommendations">Current Recommendations</a>
+    <section class="container">
+      <article class="row">
+        <div class="col-md-12">
+          <h1>Chicago Recommendations</h1>
+        </div>
+      </article>
+    </section>
+
+    <section class="container">
+      <article class="row">
+        <div class="col-md-12">
+          <%=yield%>
+        </div>
+      </article>
+    </section>
+
   </body>
 </html>
