@@ -1,0 +1,5 @@
+<h2>Thanks for contributing. Here's our list so far</h2>
+
+<%@recommendations.each do |recommend|%>
+<li><%=recommend.contributor%> has recommended <%= recommend.place%></li>
+<%end%>

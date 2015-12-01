@@ -2,6 +2,6 @@ source 'https://rubygems.org'
 
 gem 'pg'
 gem 'sinatra'
-gem 'sinatra-activebase'
+gem 'sinatra-activerecord'
 gem 'json'
 gem 'pry'
